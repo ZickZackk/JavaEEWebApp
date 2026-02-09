@@ -14,6 +14,6 @@ public class HelloServlet extends HttpServlet{
 		throws ServletException, IOException{
 		resp.setContentType("text/html");
 		PrintWriter out = resp.getWriter();
-		out.write("<h1>Hello, world</h1>");
+		out.write("<h1>Hello, Jenkins!!!</h1>");
 	}
 }
